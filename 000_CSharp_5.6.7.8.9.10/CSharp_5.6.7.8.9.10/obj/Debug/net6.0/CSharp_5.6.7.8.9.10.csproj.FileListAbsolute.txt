@@ -1,0 +1,14 @@
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\bin\Debug\net6.0\CSharp_5.6.7.8.9.10.exe
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\bin\Debug\net6.0\CSharp_5.6.7.8.9.10.deps.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\bin\Debug\net6.0\CSharp_5.6.7.8.9.10.runtimeconfig.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\bin\Debug\net6.0\CSharp_5.6.7.8.9.10.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\bin\Debug\net6.0\CSharp_5.6.7.8.9.10.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\CSharp_5.6.7.8.9.10.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\CSharp_5.6.7.8.9.10.AssemblyInfoInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\CSharp_5.6.7.8.9.10.AssemblyInfo.cs
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\CSharp_5.6.7.8.9.10.csproj.CoreCompileInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\CSharp_5.6.7.8.9.10.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\refint\CSharp_5.6.7.8.9.10.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\CSharp_5.6.7.8.9.10.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\CSharp_5.6.7.8.9.10.genruntimeconfig.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\000_CSharp_5.6.7.8.9.10\CSharp_5.6.7.8.9.10\obj\Debug\net6.0\ref\CSharp_5.6.7.8.9.10.dll
