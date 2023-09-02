@@ -1,0 +1,14 @@
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\bin\Debug\net6.0\MyGeneric.exe
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\bin\Debug\net6.0\MyGeneric.deps.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\bin\Debug\net6.0\MyGeneric.runtimeconfig.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\bin\Debug\net6.0\MyGeneric.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\bin\Debug\net6.0\MyGeneric.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\MyGeneric.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\MyGeneric.AssemblyInfoInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\MyGeneric.AssemblyInfo.cs
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\MyGeneric.csproj.CoreCompileInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\MyGeneric.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\refint\MyGeneric.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\MyGeneric.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\MyGeneric.genruntimeconfig.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\001_MyGeneric_泛型\MyGeneric\obj\Debug\net6.0\ref\MyGeneric.dll
