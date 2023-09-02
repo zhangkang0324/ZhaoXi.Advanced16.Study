@@ -88,7 +88,8 @@ namespace CSharp_5._6._7._8._9._10
             }
             #endregion
 
-            #region Expression bodied成员
+            #region Null传播器
+
             // NULL条件运算符 ?. 和 ?[]
             {
                 sharp5._0.UserInfo? user1 = null;  // 如果这个user1为null，user1.Name 会报错：未将对象引用到对象的实例
@@ -107,9 +108,7 @@ namespace CSharp_5._6._7._8._9._10
                 var userName2 = user1?.Name;
                 Console.WriteLine("userName 为" + userName2);
             }
-            #endregion
 
-            #region Null传播器
             // 字符串插值  -- $
             {
                 string text = "欢迎来到学习课堂！";
