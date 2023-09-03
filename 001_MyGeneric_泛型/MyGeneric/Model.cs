@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyGeneric
+﻿namespace MyGeneric
 {
     public interface ISports
     {
@@ -18,10 +12,9 @@ namespace MyGeneric
 
     public class People
     {
-
-
+        //// 有参数的构造函数，可能会被约束
         //public People(int id)
-        //{ 
+        //{
 
         //}
 

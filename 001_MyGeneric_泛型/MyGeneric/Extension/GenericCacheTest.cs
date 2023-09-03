@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyGeneric.Extension
+﻿namespace MyGeneric.Extension
 {
     public class GenericCacheTest
     {
@@ -28,7 +22,7 @@ namespace MyGeneric.Extension
                 }
             }
 
-            //泛型缓存--可以根据不同的类型生成一个新的类的副本；生合二老无数的副本；
+            //泛型缓存--可以根据不同的类型生成一个新的类的副本；生成了无数的副本；
             {
                 for (int i = 0; i < 5; i++)
                 {
@@ -73,11 +67,12 @@ namespace MyGeneric.Extension
 
 
     /// <summary>
-    ///泛型缓存：
+    ///泛型缓存：本质是泛型类
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class GenericCache<T>
     {
+        // 泛型类是独立的类，给一个类型都会生成一个新的类，所以每次都会调用构造函数。
         static GenericCache()
         {
             Console.WriteLine("This is GenericCache 静态构造函数");

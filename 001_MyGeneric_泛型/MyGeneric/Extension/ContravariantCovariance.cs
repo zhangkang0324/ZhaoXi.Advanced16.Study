@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyGeneric.Extension
+﻿namespace MyGeneric.Extension
 {
     /// <summary> 
     /// out 协变covariant    修饰返回值 
