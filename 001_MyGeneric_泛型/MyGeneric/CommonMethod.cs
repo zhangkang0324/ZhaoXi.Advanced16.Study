@@ -29,6 +29,7 @@
             Console.WriteLine($"This is {typeof(CommonMethod).Name}, parameter = {dtParameter.GetType().Name}, type = {dtParameter}");
         }
 
+
         /// <summary>
         /// 打印object值，Object是引用类型
         /// </summary>

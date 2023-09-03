@@ -104,7 +104,7 @@ namespace MyGeneric
             #endregion
 
 
-            #region 三. 泛型的特点+原理 --在底层如何支持
+            #region 三. 泛型的特点+原理 --在底层如何支持？
 
             // 1. 在高级语言中，定义的泛型T，在计算机执行的时候，一定要是一个具体的类型；
             // 2. 在底层是如何支持？ --在底层看到生成的结果是：List`1[T]  Dictionary`2[TKey,TValue]
@@ -262,6 +262,7 @@ namespace MyGeneric
 
             #endregion
 
+
             #region 六、泛型缓存 --泛型类
             // 应用 - 在后面手写ORM的时候会用到。
             {
@@ -272,10 +273,12 @@ namespace MyGeneric
             }
             #endregion
 
-            #region 八、泛型的协变/逆变 是一种高级约束，
-            //是为了规避  1.把子类做参数，却把父类当参数传入；
-            //            2.把子类做返回值，却返回的时候，返回了一个父类
-            //听懂了80%以上  刷个1   60% 刷个2;  
+
+            #region 七、泛型的协变/逆变
+
+            // 协变/逆变 是一种高级约束，
+            // 是为了规避  1.把子类做参数，却把父类当参数传入；
+            //             2.把子类做返回值，但返回的时候，却返回了一个父类；
             {
                 ContravariantCovariance.Show();
             }
@@ -284,12 +287,15 @@ namespace MyGeneric
                 ICustomerListOut<Animal> customerListOut = new CustomerListOut<Animal>();
                 ICustomerListOut<Animal> customerListOut1 = new CustomerListOut<Cat>();
                 //左边是Animal  右边是：Cat
-                //customerListOut1.Show(new Animal());
-                //customerListOut1.Show(new Cat());
+                // customerListOut1.Show(new Animal());
+                // customerListOut1.Show(new Cat());
+
                 customerListOut1.Get();
             }
-            #endregion
 
+            // 听懂 85%左右。
+
+            #endregion
 
             Console.ReadLine();
         }
