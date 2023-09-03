@@ -30,11 +30,11 @@
         /// <param name="tParameter"></param>
         public static void Show<T>(T tParameter)
         {
+            Console.WriteLine($"People = {tParameter}");
+
             //Console.WriteLine($"People.Id = {tParameter.Id}");
             //Console.WriteLine($"People.Name = {tParameter.Name}");
             // 此方法不能保证穿过来的 T 类都有Id 和 Name属性；必须得约束传过来的类型都是Prople类型，由此引出泛型约束的概念。
-
-            Console.WriteLine($"People = {tParameter}");
         }
 
         /// <summary>
