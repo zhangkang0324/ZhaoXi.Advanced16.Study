@@ -1,23 +1,16 @@
 ﻿using Business.DB.Interface;
 
-namespace Business.DB.MySql
+namespace Business.DB.Oracle
 {
-    public class MySqlHelper : IDBHelper
+    public class OracleHelper : IDBHelper
     {
-        public MySqlHelper()
+        public OracleHelper()
         {
             Console.WriteLine($"{this.GetType().Name} 被构造.");
         }
-
-        public MySqlHelper(int i)
-        {
-            Console.WriteLine($"{this.GetType().Name} 被构造.");
-        }
-
         public void Query()
         {
             Console.WriteLine($"{this.GetType().Name} .Query");
         }
-
     }
 }

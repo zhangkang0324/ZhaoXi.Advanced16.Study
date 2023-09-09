@@ -15,6 +15,13 @@
   <ItemGroup>
     <ProjectReference Include="..\Business.DB.Interface\Business.DB.Interface.csproj" />
     <ProjectReference Include="..\Business.DB.MySql\Business.DB.MySql.csproj" />
+    <ProjectReference Include="..\Business.DB.SqlServer\Business.DB.SqlServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

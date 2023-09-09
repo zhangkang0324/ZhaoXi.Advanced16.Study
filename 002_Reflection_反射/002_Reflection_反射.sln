@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.DB.SqlServer", "Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.DB.Model", "Business.DB.Model\Business.DB.Model.csproj", "{D743865B-8656-4064-8DF6-82BA3DD00F51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.DB.Oracle", "Business.DB.Oracle\Business.DB.Oracle.csproj", "{52FA350F-E789-49AE-A91C-B9942A03AA77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D743865B-8656-4064-8DF6-82BA3DD00F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D743865B-8656-4064-8DF6-82BA3DD00F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D743865B-8656-4064-8DF6-82BA3DD00F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52FA350F-E789-49AE-A91C-B9942A03AA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FA350F-E789-49AE-A91C-B9942A03AA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FA350F-E789-49AE-A91C-B9942A03AA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FA350F-E789-49AE-A91C-B9942A03AA77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

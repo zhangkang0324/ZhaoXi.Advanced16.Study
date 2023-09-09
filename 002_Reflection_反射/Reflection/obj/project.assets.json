@@ -245,6 +245,19 @@
         "runtime": {
           "bin/placeholder/Business.DB.MySql.dll": {}
         }
+      },
+      "Business.DB.SqlServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Business.DB.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business.DB.SqlServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.DB.SqlServer.dll": {}
+        }
       }
     }
   },
@@ -603,12 +616,18 @@
       "type": "project",
       "path": "../Business.DB.MySql/Business.DB.MySql.csproj",
       "msbuildProject": "../Business.DB.MySql/Business.DB.MySql.csproj"
+    },
+    "Business.DB.SqlServer/1.0.0": {
+      "type": "project",
+      "path": "../Business.DB.SqlServer/Business.DB.SqlServer.csproj",
+      "msbuildProject": "../Business.DB.SqlServer/Business.DB.SqlServer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Business.DB.Interface >= 1.0.0",
       "Business.DB.MySql >= 1.0.0",
+      "Business.DB.SqlServer >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.Configuration.Json >= 7.0.0"
     ]
@@ -645,6 +664,9 @@
             },
             "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\002_Reflection_反射\\Business.DB.MySql\\Business.DB.MySql.csproj": {
               "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\002_Reflection_反射\\Business.DB.MySql\\Business.DB.MySql.csproj"
+            },
+            "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\002_Reflection_反射\\Business.DB.SqlServer\\Business.DB.SqlServer.csproj": {
+              "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\002_Reflection_反射\\Business.DB.SqlServer\\Business.DB.SqlServer.csproj"
             }
           }
         }

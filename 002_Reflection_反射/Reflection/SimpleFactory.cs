@@ -1,18 +1,30 @@
 ﻿using Business.DB.Interface;
-using Business.DB.MySql;
 using Microsoft.Extensions.Configuration;
 using System.Reflection;
-using System.Runtime.CompilerServices;
 
 namespace Reflection
 {
+    /// <summary>
+    /// 简单工厂
+    /// </summary>
     public class SimpleFactory
     {
+        // 创建MySqlHelper的时候，没有出现MySqlHelper；没有依赖于MySqlHelper
+        // 依赖的是两个字符串：Business.DB.MySql.dll + Business.DB.MySql.MySqlHelper
         public static IDBHelper CreateInstance()
         {
-            // string ReflectionConfig = CustomConfigManager.GetConfig("ReflectionConfig");
-            Assembly assembly = Assembly.LoadFrom("Business.DB.MySql.dll");
-            Type type = assembly.GetType("Business.DB.MySql.MySqlHelper");
+            string ReflictionConfig = CustomConfigManager.GetConfig("ReflictionConfig");
+
+            // Business.DB.MySql.MySqlHelper, Business.DB.MySql.dll
+            string typeName = ReflictionConfig.Split(',')[0];
+            string dllName = ReflictionConfig.Split(',')[1];
+
+            //Assembly assembly = Assembly.LoadFrom("Business.DB.MySql.dll");
+            //Type type = assembly.GetType("Business.DB.MySql.MySqlHelper");
+
+            Assembly assembly = Assembly.LoadFrom(dllName);
+            Type type = assembly.GetType(typeName);
+
             object? oInstance = Activator.CreateInstance(type);
             IDBHelper helper = oInstance as IDBHelper;
             return helper;
