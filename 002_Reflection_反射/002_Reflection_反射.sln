@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{18947DFC-04A9-4B1D-9BBB-9DCF7309F57C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{18947DFC-04A9-4B1D-9BBB-9DCF7309F57C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.DB.Interface", "Business.DB.Interface\Business.DB.Interface.csproj", "{33FE7960-62C8-4CFE-90F9-061FEBC802E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.Interface", "Business.DB.Interface\Business.DB.Interface.csproj", "{33FE7960-62C8-4CFE-90F9-061FEBC802E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.DB.MySql", "Business.DB.MySql\Business.DB.MySql.csproj", "{E4010D6A-513A-4D18-A12E-B74D5E351CD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.MySql", "Business.DB.MySql\Business.DB.MySql.csproj", "{E4010D6A-513A-4D18-A12E-B74D5E351CD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.DB.SqlServer", "Business.DB.SqlServer\Business.DB.SqlServer.csproj", "{E5D6D5AD-44F5-47A1-88CD-AFF5279EE1A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.SqlServer", "Business.DB.SqlServer\Business.DB.SqlServer.csproj", "{E5D6D5AD-44F5-47A1-88CD-AFF5279EE1A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.DB.Model", "Business.DB.Model\Business.DB.Model.csproj", "{D743865B-8656-4064-8DF6-82BA3DD00F51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.Model", "Business.DB.Model\Business.DB.Model.csproj", "{D743865B-8656-4064-8DF6-82BA3DD00F51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.DB.Oracle", "Business.DB.Oracle\Business.DB.Oracle.csproj", "{52FA350F-E789-49AE-A91C-B9942A03AA77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.DB.Oracle", "Business.DB.Oracle\Business.DB.Oracle.csproj", "{52FA350F-E789-49AE-A91C-B9942A03AA77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{B631201D-BC87-4F6E-B95B-98EB2F1A288B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{52FA350F-E789-49AE-A91C-B9942A03AA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52FA350F-E789-49AE-A91C-B9942A03AA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52FA350F-E789-49AE-A91C-B9942A03AA77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B631201D-BC87-4F6E-B95B-98EB2F1A288B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B631201D-BC87-4F6E-B95B-98EB2F1A288B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B631201D-BC87-4F6E-B95B-98EB2F1A288B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B631201D-BC87-4F6E-B95B-98EB2F1A288B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

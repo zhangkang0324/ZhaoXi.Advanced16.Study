@@ -5,16 +5,17 @@ using System.Reflection;
 namespace Reflection
 {
     /// <summary>
-    /// 简单工厂
+    /// 简单工厂，专门用来创建实例的。
     /// </summary>
     public class SimpleFactory
     {
         // 创建MySqlHelper的时候，没有出现MySqlHelper；没有依赖于MySqlHelper
         // 依赖的是两个字符串：Business.DB.MySql.dll + Business.DB.MySql.MySqlHelper
+
+        // 最重要的是去掉了对细节的依赖；依赖于抽象 -- 不再依赖于细节； -- 引发后面要将的依赖倒置原则；增强代码的稳定性；
         public static IDBHelper CreateInstance()
         {
             string ReflictionConfig = CustomConfigManager.GetConfig("ReflictionConfig");
-
             // Business.DB.MySql.MySqlHelper, Business.DB.MySql.dll
             string typeName = ReflictionConfig.Split(',')[0];
             string dllName = ReflictionConfig.Split(',')[1];

@@ -171,7 +171,6 @@ namespace Reflection
 
                 #endregion
 
-
                 #region 5. 反射调用方法 + 反射创建对象的升级篇
 
                 // 5-1. 创建对象的升级篇
@@ -286,6 +285,14 @@ namespace Reflection
                     }
                 }
 
+                #endregion
+
+                #region 6. 反射多种应用场景
+                {
+                    // 1. 反射 + 配置文件 + 工厂  -- 后面要讲的IOC容器 -- IOC容器的雏形；简单版本的IOC容器；
+                    // 2. 调用方法 -- 需要类型名称 + 方法名称就可以调用到具体方法； --类型名称（字符串） + 方法名称（字符串）==== 就可以去调用方法  -- 对应最典型的场景就是MVC框架 （例子：WebApp项目）
+                    // 3. 创建一个MVC项目 -- http://localhost:5046/Home/Index，在访问此地址的时候就会访问到 HomeController下的Index方法 -- 就需要创建Home的实例； 执行Index方法 -- 这个访问的过程当然是反射来实现的
+                }
                 #endregion
 
             }
