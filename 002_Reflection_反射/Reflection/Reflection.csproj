@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Business.DB.Interface\Business.DB.Interface.csproj" />
+    <ProjectReference Include="..\Business.DB.Model\Business.DB.Model.csproj" />
     <ProjectReference Include="..\Business.DB.MySql\Business.DB.MySql.csproj" />
     <ProjectReference Include="..\Business.DB.SqlServer\Business.DB.SqlServer.csproj" />
   </ItemGroup>
