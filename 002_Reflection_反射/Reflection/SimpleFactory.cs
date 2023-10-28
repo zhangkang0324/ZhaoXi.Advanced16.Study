@@ -36,7 +36,7 @@ namespace Reflection
     {
         // 读取配置文件：appsettings
         // 1. Microsoft.Extensions.Configuration;
-        // 2. Mocrosoft.Extensions.Configuration.Json;
+        // 2. Microsoft.Extensions.Configuration.Json;
         public static string GetConfig(string key)
         {
             var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json");   // 默认读取 当前运行目录

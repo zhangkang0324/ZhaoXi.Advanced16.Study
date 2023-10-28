@@ -1,14 +1,11 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
+using System.Data;
 
-namespace ZhaoXi.EntityMap.AdoTest
-{
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            try
-            {
+namespace ZhaoXi.EntityMap.AdoTest {
+    public class Program {
+        static void Main(string[] args) {
+            try {
                 Console.WriteLine("===================================");
                 Console.WriteLine("欢迎来到.Net高级班的Vip课程，今天学习ORM框架");
                 Console.WriteLine("===================================");
@@ -76,18 +73,135 @@ namespace ZhaoXi.EntityMap.AdoTest
 
                 #endregion
 
+
+
                 // ADO.NET --引入程序集 --Nuget
                 // SqlConnection
-                string ConnectionString = "server=localhost;database=advancednet6;user=root;password=123456;";
-                using (MySqlConnection connection = new MySqlConnection(ConnectionString))
-                {
+                string ConnectionString = "server=127.0.0.1;user id=root;password=000000;database=zhaoxipracticedb";
+                using (MySqlConnection connection = new MySqlConnection(ConnectionString)) {    // 网络资源， using会自动回收资源
+                    
+                    // DataSet 多个DataTable
+                    // DataTable 多个DataRow
+                    // DataRow 多个DataColumn
+                    // 
 
+                    Console.WriteLine($"状态：{connection.State}");
+                    connection.Open();  // 打开连接
+                    Console.WriteLine($"状态：{connection.State}  ");
+
+                    //数据库命令对象 --专门执行sql命令
+                    MySqlCommand cmd = connection.CreateCommand();  // 必然要基于SqlConnection来操作  -- 如何解决呢？ 用参数化防止sql注入
+
+                    // 增删改查
+                    #region  增删改 -- 返回受影响行数
+                    {
+                        //// string title = "标题' or 1=1'";  // 存在sql注入，就要有钻牛角尖的精神
+                        //string title = "标题";
+                        ////string sql = @"INSERT INTO `commodity`(ProductId, CategoryId, Title, Price, Url, ImageUrl)
+                        ////    VALUES(123, 456, 'Title',789, 'Url', 'Url');
+                        ////    INSERT INTO `commodity`(ProductId, CategoryId, Title, Price, Url, ImageUrl)
+                        ////    VALUES(123, 456, 'Title',789, 'Url', 'Url')";
+                        //string sql = $@"INSERT INTO `commodity`(ProductId, CategoryId, Title, Price, Url, ImageUrl)
+                        //    VALUES(?ProductId, ?CategoryId, ?Title, ?Price, ?Url, ?ImageUrl)";
+
+                        //cmd.CommandText = sql;
+                        //cmd.Parameters.Add(new MySqlParameter("?ProductId", 1000));
+                        //cmd.Parameters.Add(new MySqlParameter("?CategoryId", 1000));
+                        //cmd.Parameters.Add(new MySqlParameter("?Title", title));
+                        //cmd.Parameters.Add(new MySqlParameter("?Price", 1000));
+                        //cmd.Parameters.Add(new MySqlParameter("?Url", "Url1"));
+                        //cmd.Parameters.Add(new MySqlParameter("?ImageUrl", "ImageUrl1"));
+                        //int hResult = cmd.ExecuteNonQuery();  // 返回受影响的行数
+                    }
+                    #endregion
+
+                    #region 查询     -- 返回查询结果集
+
+                    // MySqlDataReader读取
+                    {
+                        //string sql = @"SELECT * FROM commodity;";
+                        //cmd.CommandText = sql;
+                        //MySqlDataReader reader = cmd.ExecuteReader();   // 数据集读取器
+                        //while (reader.Read()) {
+                        //    Console.WriteLine(reader["Id"]);
+                        //    Console.WriteLine(reader["ProductId"]);
+                        //    Console.WriteLine(reader["CategoryId"]);
+                        //    Console.WriteLine(reader["Title"]);
+                        //    Console.WriteLine("=======================================");
+                        //}
+                    }
+
+                    // 使用适配器 读取
+                    {
+                        //string sql = @"SELECT * FROM commodity;SELECT * FROM commodity;SELECT * FROM commodity;";
+                        //cmd.CommandText = sql;
+                        //cmd.CommandType = System.Data.CommandType.Text;
+                        //MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                        ////DataSet ds = new DataSet();
+                        ////adapter.Fill(ds, "myds");
+
+                        //DataTable dt = new DataTable();
+                        //adapter.Fill(dt);
+                    }
+
+                    #endregion
+
+                    #region 事务
+
+                    {
+                        using (MySqlTransaction transaction = connection.BeginTransaction()) {
+
+                            try {
+                                // 对于业务来说，可能同时去操作多次数据库表
+                                // 事务的ACID :
+                                // 原子性
+                                // 一致性：要么都成功，要么都失败 --必须都得成功
+                                // 隔离性
+                                // 持久性
+                                // 第一个操作
+                                //{
+                                //    string sql = @"Delete from commodity where id = ?id";
+                                //    cmd.Transaction = transaction;
+                                //    cmd.CommandText = sql;
+                                //    cmd.CommandType = System.Data.CommandType.Text;
+                                //    cmd.Parameters.Add(new MySqlParameter("?id", 3));
+                                //    object deleteResult = cmd.ExecuteNonQuery();
+                                //}
+                                //// 第二个操作
+                                //{
+                                //    string sql = @"INSERT INTO `commodity`(ProductId, CategoryId, Title, Price, Url, ImageUrl)
+                                //        VALUES(?ProductId, ?CategoryId, ?Title, ?Price, ?Url, ?ImageUrl)";
+                                //    cmd.Transaction = transaction;
+                                //    cmd.CommandText = sql;
+                                //    cmd.CommandType = System.Data.CommandType.Text;
+                                //    cmd.Parameters.Add(new MySqlParameter("?ProductId", 1000));
+                                //    cmd.Parameters.Add(new MySqlParameter("?CategoryId", 1000));
+                                //    cmd.Parameters.Add(new MySqlParameter("?Title", "标题2"));
+                                //    cmd.Parameters.Add(new MySqlParameter("?Price", 1000));
+                                //    cmd.Parameters.Add(new MySqlParameter("?Url", "Url1"));
+                                //    cmd.Parameters.Add(new MySqlParameter("?ImageUrl", "ImageUrl1"));
+                                //    object insertResult = cmd.ExecuteNonQuery();
+                                //}
+
+                                //transaction.Commit();
+
+                            } catch (Exception ex) {
+                                transaction.Rollback();
+                                Console.WriteLine(ex.Message);
+                            }
+                        }
+                    }
+
+                    #endregion
+
+
+
+                    connection.Close(); // 关闭连接
+                    Console.WriteLine($"状态：{connection.State}");
                 }
 
-
-            }
-            catch (Exception ex)
-            {
+                Console.ReadKey();
+            } catch (Exception ex) {
                 Console.WriteLine(ex.Message);
             }
         }
