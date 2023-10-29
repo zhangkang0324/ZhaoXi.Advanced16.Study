@@ -50,7 +50,8 @@ namespace Zhaoxi.DbProxy {
         // 能不能想办法合并一下，一个方法满足不同实体通用的查询诉求。 -- 有，泛型
 
         /// <summary>
-        /// 主键查询 --改进后的终极版
+        /// 主键查询 --仅仅是主键查询，任何类型都可以调用这个方法，并且一定要传递主键进来，才能查询。
+        /// 根据泛型 和 反射优化的通用版本
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -124,6 +125,8 @@ namespace Zhaoxi.DbProxy {
             }
             return (T)oResult;
         }
+
+
 
 
     }
