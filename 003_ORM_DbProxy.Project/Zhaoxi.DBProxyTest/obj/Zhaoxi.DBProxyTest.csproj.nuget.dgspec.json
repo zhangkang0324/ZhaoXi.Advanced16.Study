@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxyTest\\Zhaoxi.DBProxyTest.csproj": {}
+  },
+  "projects": {
+    "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxy.Models\\Zhaoxi.DBProxy.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxy.Models\\Zhaoxi.DBProxy.Models.csproj",
+        "projectName": "Zhaoxi.DBProxy.Models",
+        "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxy.Models\\Zhaoxi.DBProxy.Models.csproj",
+        "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
+        "outputPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxy.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DbProxy\\Zhaoxi.DbProxy.csproj": {
+                "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DbProxy\\Zhaoxi.DbProxy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxyTest\\Zhaoxi.DBProxyTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxyTest\\Zhaoxi.DBProxyTest.csproj",
+        "projectName": "Zhaoxi.DBProxyTest",
+        "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxyTest\\Zhaoxi.DBProxyTest.csproj",
+        "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
+        "outputPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxyTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxy.Models\\Zhaoxi.DBProxy.Models.csproj": {
+                "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DBProxy.Models\\Zhaoxi.DBProxy.Models.csproj"
+              },
+              "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DbProxy\\Zhaoxi.DbProxy.csproj": {
+                "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DbProxy\\Zhaoxi.DbProxy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DbProxy\\Zhaoxi.DbProxy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DbProxy\\Zhaoxi.DbProxy.csproj",
+        "projectName": "Zhaoxi.DbProxy",
+        "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DbProxy\\Zhaoxi.DbProxy.csproj",
+        "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
+        "outputPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\003_ORM_DbProxy.Project\\Zhaoxi.DbProxy\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

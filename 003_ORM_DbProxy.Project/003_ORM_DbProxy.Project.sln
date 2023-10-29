@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhaoXi.EntityMap.AdoTest", "ZhaoXi.EntityMap.AdoTest\ZhaoXi.EntityMap.AdoTest.csproj", "{BEEE04C7-9FB6-4F99-82D4-F1FC785299F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZhaoXi.EntityMap.AdoTest", "ZhaoXi.EntityMap.AdoTest\ZhaoXi.EntityMap.AdoTest.csproj", "{BEEE04C7-9FB6-4F99-82D4-F1FC785299F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoxi.DBProxyTest", "Zhaoxi.DBProxyTest\Zhaoxi.DBProxyTest.csproj", "{B63D21F3-4D98-40CC-A8E2-DEB47C5FB2C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoxi.DbProxy", "Zhaoxi.DbProxy\Zhaoxi.DbProxy.csproj", "{4730F946-80D0-410B-90A9-0256155FBFAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoxi.DBProxy.Models", "Zhaoxi.DBProxy.Models\Zhaoxi.DBProxy.Models.csproj", "{2A340284-B2B4-4633-BDE8-5325D661A1CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{BEEE04C7-9FB6-4F99-82D4-F1FC785299F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEEE04C7-9FB6-4F99-82D4-F1FC785299F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEEE04C7-9FB6-4F99-82D4-F1FC785299F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63D21F3-4D98-40CC-A8E2-DEB47C5FB2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63D21F3-4D98-40CC-A8E2-DEB47C5FB2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63D21F3-4D98-40CC-A8E2-DEB47C5FB2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63D21F3-4D98-40CC-A8E2-DEB47C5FB2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4730F946-80D0-410B-90A9-0256155FBFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4730F946-80D0-410B-90A9-0256155FBFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4730F946-80D0-410B-90A9-0256155FBFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4730F946-80D0-410B-90A9-0256155FBFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A340284-B2B4-4633-BDE8-5325D661A1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A340284-B2B4-4633-BDE8-5325D661A1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A340284-B2B4-4633-BDE8-5325D661A1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A340284-B2B4-4633-BDE8-5325D661A1CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
