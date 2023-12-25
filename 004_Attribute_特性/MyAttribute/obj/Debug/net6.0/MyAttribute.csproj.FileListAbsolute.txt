@@ -1,0 +1,15 @@
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\bin\Debug\net6.0\MyAttribute.exe
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\bin\Debug\net6.0\MyAttribute.deps.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\bin\Debug\net6.0\MyAttribute.runtimeconfig.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\bin\Debug\net6.0\MyAttribute.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\bin\Debug\net6.0\MyAttribute.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\MyAttribute.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\MyAttribute.AssemblyInfoInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\MyAttribute.AssemblyInfo.cs
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\MyAttribute.csproj.CoreCompileInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\MyAttribute.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\refint\MyAttribute.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\MyAttribute.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\MyAttribute.genruntimeconfig.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\ref\MyAttribute.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\MyAttribute\obj\Debug\net6.0\MyAttribute.sourcelink.json
