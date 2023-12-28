@@ -4,6 +4,202 @@
     "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\MyAttribute\\MyAttribute.csproj": {}
   },
   "projects": {
+    "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Interface\\Business.DB.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Interface\\Business.DB.Interface.csproj",
+        "projectName": "Business.DB.Interface",
+        "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Interface\\Business.DB.Interface.csproj",
+        "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
+        "outputPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Model\\Business.DB.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Model\\Business.DB.Model.csproj",
+        "projectName": "Business.DB.Model",
+        "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Model\\Business.DB.Model.csproj",
+        "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
+        "outputPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.SqlServer\\Business.DB.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.SqlServer\\Business.DB.SqlServer.csproj",
+        "projectName": "Business.DB.SqlServer",
+        "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.SqlServer\\Business.DB.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
+        "outputPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Interface\\Business.DB.Interface.csproj": {
+                "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Interface\\Business.DB.Interface.csproj"
+              },
+              "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Model\\Business.DB.Model.csproj": {
+                "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Model\\Business.DB.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\MyAttribute\\MyAttribute.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +223,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Model\\Business.DB.Model.csproj": {
+                "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.Model\\Business.DB.Model.csproj"
+              },
+              "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.SqlServer\\Business.DB.SqlServer.csproj": {
+                "projectPath": "E:\\Coding\\.Net\\ZhaoXi.Advanced16.Study\\004_Attribute_特性\\Business.DB.SqlServer\\Business.DB.SqlServer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

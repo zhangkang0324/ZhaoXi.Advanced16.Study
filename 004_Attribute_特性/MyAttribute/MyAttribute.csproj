@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Business.DB.Model\Business.DB.Model.csproj" />
+    <ProjectReference Include="..\Business.DB.SqlServer\Business.DB.SqlServer.csproj" />
+  </ItemGroup>
+
 </Project>

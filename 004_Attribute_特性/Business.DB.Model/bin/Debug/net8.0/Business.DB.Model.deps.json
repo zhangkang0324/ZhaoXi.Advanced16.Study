@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Business.DB.Model/1.0.0": {
+        "runtime": {
+          "Business.DB.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Business.DB.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

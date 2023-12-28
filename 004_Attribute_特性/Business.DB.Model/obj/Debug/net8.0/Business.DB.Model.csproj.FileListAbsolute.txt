@@ -1,0 +1,11 @@
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\bin\Debug\net8.0\Business.DB.Model.deps.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\bin\Debug\net8.0\Business.DB.Model.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\bin\Debug\net8.0\Business.DB.Model.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\obj\Debug\net8.0\Business.DB.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\obj\Debug\net8.0\Business.DB.Model.AssemblyInfoInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\obj\Debug\net8.0\Business.DB.Model.AssemblyInfo.cs
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\obj\Debug\net8.0\Business.DB.Model.csproj.CoreCompileInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\obj\Debug\net8.0\Business.DB.Model.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\obj\Debug\net8.0\refint\Business.DB.Model.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\obj\Debug\net8.0\Business.DB.Model.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Model\obj\Debug\net8.0\ref\Business.DB.Model.dll

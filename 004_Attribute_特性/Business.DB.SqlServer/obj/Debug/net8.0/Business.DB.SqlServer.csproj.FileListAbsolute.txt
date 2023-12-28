@@ -1,0 +1,17 @@
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\bin\Debug\net8.0\Business.DB.SqlServer.deps.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\bin\Debug\net8.0\Business.DB.SqlServer.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\bin\Debug\net8.0\Business.DB.SqlServer.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\bin\Debug\net8.0\Business.DB.Interface.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\bin\Debug\net8.0\Business.DB.Model.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\bin\Debug\net8.0\Business.DB.Interface.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\bin\Debug\net8.0\Business.DB.Model.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\Business.DB.SqlServer.csproj.AssemblyReference.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\Business.DB.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\Business.DB.SqlServer.AssemblyInfoInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\Business.DB.SqlServer.AssemblyInfo.cs
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\Business.DB.SqlServer.csproj.CoreCompileInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\Business.DB.SqlServer.csproj.CopyComplete
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\Business.DB.SqlServer.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\refint\Business.DB.SqlServer.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\Business.DB.SqlServer.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.SqlServer\obj\Debug\net8.0\ref\Business.DB.SqlServer.dll

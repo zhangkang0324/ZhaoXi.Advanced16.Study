@@ -1,0 +1,12 @@
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\bin\Debug\net8.0\Business.DB.Interface.deps.json
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\bin\Debug\net8.0\Business.DB.Interface.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\bin\Debug\net8.0\Business.DB.Interface.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\Business.DB.Interface.csproj.AssemblyReference.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\Business.DB.Interface.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\Business.DB.Interface.AssemblyInfoInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\Business.DB.Interface.AssemblyInfo.cs
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\Business.DB.Interface.csproj.CoreCompileInputs.cache
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\Business.DB.Interface.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\refint\Business.DB.Interface.dll
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\Business.DB.Interface.pdb
+E:\Coding\.Net\ZhaoXi.Advanced16.Study\004_Attribute_特性\Business.DB.Interface\obj\Debug\net8.0\ref\Business.DB.Interface.dll
